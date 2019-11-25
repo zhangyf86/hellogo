@@ -1,10 +1,6 @@
 package Sort
 
-func IntSort(data []int) {
-	quickSort(IntSlice(data))
-}
-
-func quickSort(data InterFace) {
+func QuickSort(data InterFace) {
 	separateSort(data, 0, data.Len()-1)
 }
 

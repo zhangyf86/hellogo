@@ -14,10 +14,10 @@ func init() {
 	}
 }
 func Test_quickSort(t *testing.T) {
-	IntSort(n)
+	QuickSort(IntSlice(n))
 	t.Log(n)
 }
 
 func Benchmark_quickSort(t *testing.B) {
-	IntSort(n)
+	QuickSort(IntSlice(n))
 }
