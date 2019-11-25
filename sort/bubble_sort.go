@@ -1,4 +1,4 @@
-package Sort
+package sort
 
 func BubbleSort(data InterFace) {
 	n := data.Len()

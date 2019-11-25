@@ -1,4 +1,4 @@
-package Sort
+package sort
 
 func QuickSort(data InterFace) {
 	separateSort(data, 0, data.Len()-1)
